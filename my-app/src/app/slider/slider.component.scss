@@ -1,0 +1,131 @@
+// * {
+//   background-color: white;
+// }
+
+.wrapper{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.slidecontainer {
+  width : 100%;
+  display : flex;
+  justify-content:center;
+}
+
+.colors{
+  display:flex;
+  flex-direction: column;
+}
+
+  mat-slider {
+    width: 80%;
+  }
+
+
+
+
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 80%; /* Full-width */
+  height: 5px;
+  border-radius: 5px;   
+  background: green; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+
+
+.sliderblue {
+  background : #2ba0db;
+}
+
+.slidergreen {
+  background : #008136;
+}
+
+.sliderred {
+  background : #e50050;
+}
+
+.slideryellow {
+  background : #ffcc00;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 20px; /* Set a specific slider handle width */
+  height: 20px;
+  border-radius: 50%;  /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 20px; /* Set a specific slider handle width */
+  height: 20px;
+  border-radius: 50%; /* Slider handle height */
+  background: #2ba0db; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border : none;
+}
+
+
+
+  .form-card, .face-snap-card {
+    box-sizing: border-box;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px 30px;
+    box-shadow: lightgray 4px 4px 20px;
+  }
+  
+  .face-snap-card {
+    img {
+      width: 100%;
+    }
+    h2 {
+      margin-bottom: 0;
+    }
+    p {
+      font-weight: 300;
+      font-size: 16px;
+    }
+  }
+
+  .form-group {
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  input, textarea {
+    width: 50%;
+  }
+  
+  .action-buttons {
+    width: 100%;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+  }
+
+  

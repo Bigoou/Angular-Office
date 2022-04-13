@@ -1,0 +1,55 @@
+.face-snap-card {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width : 30vw;
+    height:40vh;
+    display : flex;
+    flex-direction : column;
+    justify-content : space-between;
+      img {
+        width: 100%;
+        justify-self: flex-end;
+        border-radius : 0 0px 10px 10px
+      }
+      h2, p {
+          background-color:white;
+          padding-left:10px;
+          padding-right:10px;
+  
+      }
+      button{
+        background-color: white;
+        border : 1px solid black;
+        padding:5px;
+        border-radius : 3px;
+        width:100px;
+        margin-left:10px;
+      }
+      button:hover{
+        background-color:#c1c1c1;
+        color:white
+      }
+      // border : 1px solid black;
+      box-shadow : 0px 0px 17px 5px rgba(153, 153, 153, 0.54);
+      margin:20px;
+      border-radius : 10px;
+      background-color: white;
+    }
+  
+    .snapped {
+    background-color: rgb(120, 177, 120);
+    color: darkgreen;
+    button {
+      box-shadow: lightgreen 3px 3px 7px;
+      color: darkgreen;
+      &:active {
+        box-shadow: lightgreen 0 0 5px;
+      }
+    }
+    h2, p{
+      background-color: rgb(120, 177, 120);
+  
+    }
+  }

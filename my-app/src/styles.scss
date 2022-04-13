@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~quill/dist/quill.core.css';
+@import '~quill/dist/quill.bubble.css';
+@import '~quill/dist/quill.snow.css';
+
+
+* {
+    font-family: Roboto, Helvetica, sans-serif;
+    // background-color : #f6f6f6;
+    box-sizing : border-box;
+  }
+
+body{
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    margin:0;
+    // background-color : #f6f6f6;
+
+}
+
+.mat-slider-thumb {
+	background-color: #8f4b4b !important;
+}
+
+.mat-slider-thumb-label {
+	background-color: #962525 !important;
+}
+
+.mat-slider-track-fill {
+	background-color: #d32727 !important;
+}
+
